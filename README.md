@@ -15,7 +15,7 @@ In general, we need something like this:
 ![](./figures/4d_to_2d.png)
 Figure from Abraham et al. (2014) *Frontiers in Neuroinformatics* paper.
 
-In this machine learning training materials, I use previously prepared fMRI time-series extracted from the task and resting-state data using [Schaefer](https://github.com/ThomasYeoLab/CBIG/tree/master/stable_projects/brain_parcellation/Schaefer2018_LocalGlobal) parcellation. I extracted time-series from data of 10 subjects and concatenated to obtain a long 2D array. 
+In this machine learning training materials, I use previously prepared fMRI time-series extracted from the task and resting-state data using [Schaefer](https://github.com/ThomasYeoLab/CBIG/tree/master/stable_projects/brain_parcellation/Schaefer2018_LocalGlobal) parcellation. I extracted time-series from data of 10 subjects and concatenated them to obtain a long 2D array. 
 
 In folder `data` you can find:
 - prepared and concatenated fMRI time-series for task and rest (`concat_10subjects_timeseries_shaefer400_pipeline-24HMP_8Phys_SpikeReg_4GS.npy`)
