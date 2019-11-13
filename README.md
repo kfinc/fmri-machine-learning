@@ -1,12 +1,13 @@
-# fmri-machine-learning
-Learning/teaching materials on applying machine learning algorithms to fMRI data.
+# Machine learning applications to fMRI data 
 
-**What is machine learning (ML)?**
+Here you can find some of learning/teaching materials I've collected while learning to apply machine learning algorithms to fMRI data.
+
+###What is machine learning (ML)?
 
 The art and science of giving computers the ability to learn to make decisions from data, without being explicitly programmed (DataCamp definition).
 
 
-**How we can apply ML algorithms on fMRI data?**
+###How we can apply ML algorithms on fMRI data?
 
 With fMRI technique, we can scan the human brain multiple times during performing some activity (e.g. task, rest, or sleep). Resulting brain images are stored in 4D arrays, where the first three dimensions are reserved for 3D brain image (so-called *volume*), while remaining the fourth dimension represents time-point (one complete volume of the brain is acquired every 1-2 seconds), covering the whole scan time (usually 10-60 min).
 
@@ -23,7 +24,7 @@ In folder `data` you can find:
 * table with labels for task conditions (`task_conditions.csv`)
 
 
-**Types of ML algorithms:**
+###Types of ML algorithms:
 
 1. *supervised learning* - predicting the target variable, given the predictor variables (labeled data) 
 
@@ -36,7 +37,7 @@ In folder `data` you can find:
     
 3. *reinforcement learning* - software agents interacts with an environment, learning how to optimize their behavior given a system of rewards and punishments. Draws inspiration from behavioral psychology. Has applications in. Applications: economics, genetics, game playing (AlphaGo).
 
-**Python libraries:**
+###Python libraries:
 
 1.  scikit-learn/sklearn - all ML learning models implementeas Python classes, which implement the algorithms for learning and predicting + storing all the information learned from the data.
     * `.fit()` method for training a model on the data = "fitting" a model to the data
