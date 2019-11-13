@@ -38,7 +38,11 @@ In folder `data` you can find:
 
 **Python libraries:**
 
-- scikit-learn/sklearn
+1.  scikit-learn/sklearn - all ML learning models implementeas Python classes, which implement the algorithms for learning and predicting + storing all the information learned from the data.
+    * `.fit()` method for training a model on the data = "fitting" a model to the data
+    * `predict()` method for predicting the labels of new data    
+
+
 - TensorFlow
 - keras
 
